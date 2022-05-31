@@ -25,3 +25,12 @@ header, .about{
 .portfolio i{
     color: #2C3E50;
 }
+
+footer{
+    color: white;
+    background-color: #3A546D;
+}
+
+footer .copy{
+    background-color: #132435;
+}
