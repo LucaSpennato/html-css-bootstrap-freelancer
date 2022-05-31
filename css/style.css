@@ -1,15 +1,18 @@
-header{
+header, .about{
     background-color: #1ABC9C;
     color: white;
 }
 
 .jumbotron hr,
-.portfolio hr{
+.portfolio hr,
+.about hr{
     height: .2rem;
     opacity: 1;
 }
 
-.jumbotron i, .portfolio i{
+.jumbotron i,
+.portfolio i,
+.about i{
     font-size: 1.5rem;
 }
 
