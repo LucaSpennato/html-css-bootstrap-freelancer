@@ -5,14 +5,16 @@ header, .about{
 
 .jumbotron hr,
 .portfolio hr,
-.about hr{
+.about hr,
+.contactme hr{
     height: .2rem;
     opacity: 1;
 }
 
 .jumbotron i,
 .portfolio i,
-.about i{
+.about i,
+.contactme i{
     font-size: 1.5rem;
 }
 
