@@ -3,11 +3,20 @@ header{
     color: white;
 }
 
-.jumbotron hr{
+.jumbotron hr,
+.portfolio hr{
     height: .2rem;
     opacity: 1;
 }
 
-.jumbotron i{
+.jumbotron i, .portfolio i{
     font-size: 1.5rem;
+}
+
+.portfolio hr{
+    background-color: #2C3E50;
+}
+
+.portfolio i{
+    color: #2C3E50;
 }
