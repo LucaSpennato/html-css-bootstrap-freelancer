@@ -31,6 +31,16 @@ header, #about{
     color: #2C3E50;
 }
 
+#textarea{
+    display: block;
+    width: 100%;
+}
+
+.ms_color_bord{
+    border: none;
+    border-bottom: 1px solid gray;
+}
+
 footer{
     color: white;
     background-color: #3A546D;
