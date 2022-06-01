@@ -57,3 +57,30 @@ footer .copy{
     border: 1px solid white;
     cursor: pointer;
 }
+
+.ms_relative{
+    position: relative;
+}
+
+.ms_hover_effect{
+    width: calc(100% - 16px);
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 255, 0, 0.2);
+}
+
+.ms_hover_effect{
+    display: none;
+}
+
+.ms_relative:hover .ms_hover_effect{
+    display: flex;
+}
+
