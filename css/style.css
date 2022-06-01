@@ -1,12 +1,16 @@
-header, .about{
+header, #about{
     background-color: #1ABC9C;
     color: white;
 }
 
+.navbar-toggler-icon{
+    filter: invert(100%);
+}
+
 .jumbotron hr,
 #portfolio hr,
-.about hr,
-.contactme hr{
+#about hr,
+#contactme hr{
     height: .2rem;
     opacity: 1;
     border-radius: .1rem;
@@ -14,8 +18,8 @@ header, .about{
 
 .jumbotron i,
 #portfolio i,
-.about i,
-.contactme i{
+#about i,
+#contactme i{
     font-size: 1.5rem;
 }
 
