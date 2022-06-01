@@ -4,25 +4,26 @@ header, .about{
 }
 
 .jumbotron hr,
-.portfolio hr,
+#portfolio hr,
 .about hr,
 .contactme hr{
     height: .2rem;
     opacity: 1;
+    border-radius: .1rem;
 }
 
 .jumbotron i,
-.portfolio i,
+#portfolio i,
 .about i,
 .contactme i{
     font-size: 1.5rem;
 }
 
-.portfolio hr{
+#portfolio hr{
     background-color: #2C3E50;
 }
 
-.portfolio i{
+#portfolio i{
     color: #2C3E50;
 }
 
@@ -33,4 +34,12 @@ footer{
 
 footer .copy{
     background-color: #132435;
+}
+
+.ms_external_border::before{
+    content: '';
+    border-radius: 50%;
+    padding: .7rem;
+    border: 1px solid white;
+    cursor: pointer;
 }
